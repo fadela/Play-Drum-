@@ -1,0 +1,53 @@
+body{
+    background-image: url("drummer.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 85%;
+}
+
+.keys{
+    margin-left: 25%;
+    margin-top: 10%;
+    transition: all 0.07s;
+       
+}
+
+.key{
+    width: 100px;
+    background-color: rgb(59, 59, 54);
+    height: 70px;
+    opacity: 0.5;
+    border-style: inset;
+    border-color: rgb(14, 6, 10);
+    border-radius: 5px;
+    box-shadow: 0 0 10px #300407;
+    transition-duration: all 0.07s;
+    color: white;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 0 0 5px black;
+    display: inline-block;
+    margin-top: 23%;
+    margin-left: 1%;
+}
+    
+
+kbd{
+    display: block;
+    font-size: 40px;
+}
+
+.sound{
+    font-size: 0.8rem;
+    text-align: left;
+    color: aliceblue;
+    letter-spacing: o.5px;
+    
+}
+
+.playing{
+    transform: scale(1.01);
+    border-width: 3px;
+    box-shadow: 0 0 10px #300407;
+}

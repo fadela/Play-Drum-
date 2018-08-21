@@ -1,0 +1,47 @@
+<DOCTYPE! <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drum</title>
+    <link rel="stylesheet" type="text/css" href="drum.css">
+    <script type="text/javascript" src="drum.js"></script>
+</head>
+
+<body>
+
+  <div class="keys">
+        <div class="key"  data-key="65">
+           <kbd>A</kbd>
+           <span class="sound">Cymbal_Groove</span>
+        </div>
+        <div class="key" data-key="83">
+            <kbd>S</kbd>
+            <span class="sound">Basic_Rock</span>
+         </div>
+         <div class="key" data-key="68">
+                <kbd>D</kbd>
+                <span class="sound">Tamba</span>
+         </div>
+         <div class="key" data-key="70">
+                <kbd>F</kbd>
+                <span class="sound">RatAtat</span>
+         </div>
+         <div class="key" data-key="71">
+                <kbd>G</kbd>
+                <span class="sound">Pounder</span>
+         </div>
+         <div class="key" data-key="72">
+                <kbd>H</kbd>
+                <span class="sound">Big_Thwack</span>
+         </div>
+  </div>  
+
+  <audio data-key="65" class="key65" src="sounds/Cymbal_Groove.wav" ></audio>
+  <audio data-key="83" class="key83" src="sounds/Basic_Rock.wav"></audio>
+  <audio data-key="68" src="sounds/Tamba_112.wav"></audio>
+  <audio data-key="70" src="sounds/RatAtat_155.wav"></audio>
+  <audio data-key="71" src="sounds/Pounder_130.wav"></audio>
+  <audio data-key="72" src="sounds/Big_Thwack_120.wav"></audio>
+
+</body>
+</html>
